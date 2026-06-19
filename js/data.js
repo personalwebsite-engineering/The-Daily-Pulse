@@ -131,9 +131,10 @@ thumbnail: 'https://example.com/monu-thumb.jpg',
 featured: false,
 breaking: false,
 tags: ['Identity', 'LGBTQ+', 'Community'],
-content: ` <p>Monu, a  character in this example article, recently shared that he is gay and spoke about the importance of being honest about who he is.</p>
+content: `
+<p>Monu, a  character in this example article, recently shared that he is gay and spoke about the importance of being honest about who he is.</p>
 
-```
+
 <p>He described his journey toward self-acceptance and said that support from friends and family played a major role in helping him feel comfortable expressing himself.</p>
 
 <blockquote>
@@ -143,7 +144,6 @@ content: ` <p>Monu, a  character in this example article, recently shared that h
 <h2>Message of Acceptance</h2>
 
 <p>Monu hopes that his story encourages others to embrace their identities and treat one another with respect and understanding.</p>
-```
 
 `,
 },
