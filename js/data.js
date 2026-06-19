@@ -116,6 +116,37 @@ const ARTICLES = [
       <p>Regional observers noted that external pressure — particularly China's strained relationship with Western partners and India's deepening defense ties with the United States and Australia — may have created a narrow diplomatic window. A second round of talks is expected to be announced within weeks, though the timeline and agenda remain subject to negotiation.</p>
     `,
   },
+{
+id: 'e1',
+slug: 'monu-shares-his-story',
+title: 'Monu Opens Up About His Identity',
+subtitle: 'A personal story about self-acceptance, confidence, and living authentically.',
+category: 'entertainment',
+author: 'Staff Writer',
+authorRole: 'Reporter',
+date: '2026-06-19',
+readTime: 3,
+image: 'https://example.com/monu.jpg',
+thumbnail: 'https://example.com/monu-thumb.jpg',
+featured: false,
+breaking: false,
+tags: ['Identity', 'LGBTQ+', 'Community'],
+content: ` <p>Monu, a f character in this example article, recently shared that he is gay and spoke about the importance of being honest about who he is.</p>
+
+```
+<p>He described his journey toward self-acceptance and said that support from friends and family played a major role in helping him feel comfortable expressing himself.</p>
+
+<blockquote>
+  <p>"Being myself has given me confidence and peace of mind," Monu said.</p>
+</blockquote>
+
+<h2>Message of Acceptance</h2>
+
+<p>Monu hopes that his story encourages others to embrace their identities and treat one another with respect and understanding.</p>
+```
+
+`,
+}
 
   // ── POLITICS ─────────────────────────────
   {
