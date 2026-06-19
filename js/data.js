@@ -91,7 +91,7 @@ const ARTICLES = [
       <p>Neighboring countries have absorbed the largest share of displaced populations, straining already-stretched public services. Health officials in the region report sharp increases in cholera, measles, and acute malnutrition, particularly among children under five. "The numbers are not statistics," said Dr. Priya Rajan, a field physician with Médecins Sans Frontières. "Each one is a family that had somewhere to be."</p>
     `,
   },
-  {
+  /**{
     id: 'w4',
     slug: 'india-china-diplomacy',
     title: 'India and China Resume High-Level Talks After Three-Year Freeze',
@@ -115,9 +115,9 @@ const ARTICLES = [
 
       <p>Regional observers noted that external pressure — particularly China's strained relationship with Western partners and India's deepening defense ties with the United States and Australia — may have created a narrow diplomatic window. A second round of talks is expected to be announced within weeks, though the timeline and agenda remain subject to negotiation.</p>
     `,
-  },
+  }**/,
 {
-id: 'w5',
+id: 'w4',
 slug: 'monu-shares-his-story',
 title: 'Monu Opens Up About His Identity',
 subtitle: 'A personal story about self-acceptance, confidence, and living authentically.',
