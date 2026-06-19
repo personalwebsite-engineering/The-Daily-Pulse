@@ -13,7 +13,7 @@ const ARTICLES = [
   {
     id: 'w1',
     slug: 'climate-summit-historic-agreement',
-    title: 'World Leaders Sign Historic Climate Accord at Geneva Summit',
+    title: 'Monu is a gay',
     subtitle: 'The 2026 Geneva Accord sets binding net-zero targets for 190 nations, marking the most sweeping climate agreement in history',
     category: 'world',
     author: 'Sarah Mitchell',
