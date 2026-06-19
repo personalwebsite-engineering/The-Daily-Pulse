@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Read the full story on The Daily Pulse.">
+  <title>Article — The Daily Pulse</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;0,900;1,400;1,600&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+
+  <style>
+    /* Article-specific layout overrides */
+    .article-layout {
+      display: grid;
+      grid-template-columns: 1fr min(720px, 100%) 1fr;
+      padding: 0;
+    }
+    .article-layout > * { grid-column: 2; }
+    .article-layout .full-bleed { grid-column: 1 / -1; }
+
+    @media (max-width: 800px) {
+      .article-layout { grid-template-columns: 16px 1fr 16px; }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Reading Progress Bar -->
+  <div class="reading-progress" id="readingProgress" role="progressbar" aria-label="Reading progress" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
+
+  <!-- Header injected by utils.js -->
+  <div id="header-placeholder"></div>
+
+  <main id="article-main">
+    <!-- Injected by article.js renderArticle() -->
+    <div class="container" style="padding:60px 24px;">
+      <div style="max-width:720px;margin:0 auto;">
+        <!-- Loading skeleton -->
+        <div class="skeleton" style="height:20px;width:80px;margin-bottom:20px;border-radius:3px;"></div>
+        <div class="skeleton" style="height:48px;width:100%;margin-bottom:12px;border-radius:3px;"></div>
+        <div class="skeleton" style="height:28px;width:90%;margin-bottom:28px;border-radius:3px;"></div>
+        <div class="skeleton" style="height:1px;width:100%;margin-bottom:28px;"></div>
+        <div class="skeleton" style="height:400px;width:100%;margin-bottom:28px;border-radius:2px;"></div>
+        <div class="skeleton" style="height:18px;width:100%;margin-bottom:12px;border-radius:3px;"></div>
+        <div class="skeleton" style="height:18px;width:95%;margin-bottom:12px;border-radius:3px;"></div>
+        <div class="skeleton" style="height:18px;width:88%;margin-bottom:12px;border-radius:3px;"></div>
+      </div>
+    </div>
+  </main>
+
+  <!-- Footer injected by utils.js -->
+  <div id="footer-placeholder"></div>
+
+  <!-- Scripts -->
+  <script src="js/data.js"></script>
+  <script src="js/utils.js"></script>
+  <script src="js/article.js"></script>
+
+</body>
+</html>

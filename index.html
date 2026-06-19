@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="The Daily Pulse — Independent journalism covering World, Politics, Business, Tech, Sports, and Entertainment.">
+  <meta property="og:title" content="The Daily Pulse">
+  <meta property="og:description" content="Independent journalism, delivered daily.">
+  <meta property="og:type" content="website">
+  <title>The Daily Pulse — Independent News</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;0,900;1,400;1,600&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- Header injected by utils.js -->
+  <div id="header-placeholder"></div>
+
+  <!-- Breaking News Ticker -->
+  <div class="breaking-bar" role="marquee" aria-label="Breaking news">
+    <div class="breaking-label">
+      <span class="live-dot" aria-hidden="true"></span>
+      Live
+    </div>
+    <div class="ticker-track">
+      <div class="ticker-content" id="tickerContent">
+        <!-- Injected by utils.js initTicker() -->
+      </div>
+    </div>
+  </div>
+
+  <main>
+
+    <!-- Hero Section -->
+    <section class="hero-section" aria-label="Featured stories">
+      <div class="container">
+        <div id="hero-container">
+          <!-- Injected by main.js renderHero() -->
+          <div style="height:420px;background:var(--color-bg-alt);display:flex;align-items:center;justify-content:center;">
+            <div class="skeleton" style="width:100%;height:100%;"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Category Sections -->
+    <div class="container">
+      <div id="sections-container">
+        <!-- Injected by main.js renderAllSections() -->
+      </div>
+    </div>
+
+    <!-- Newsletter Section -->
+    <section class="newsletter-section" id="newsletter" aria-label="Newsletter signup">
+      <div class="container">
+        <h2>Stay ahead of the story</h2>
+        <p>Get the most important news delivered to your inbox every morning — free, no spam, unsubscribe anytime.</p>
+        <form class="newsletter-form" novalidate aria-label="Email subscription form">
+          <input
+            type="email"
+            class="newsletter-input"
+            placeholder="Your email address"
+            aria-label="Email address"
+            autocomplete="email"
+            required
+          >
+          <button type="submit" class="newsletter-submit">Subscribe Free</button>
+        </form>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Footer injected by utils.js -->
+  <div id="footer-placeholder"></div>
+
+  <!-- Scripts -->
+  <script src="js/data.js"></script>
+  <script src="js/utils.js"></script>
+  <script src="js/main.js"></script>
+
+</body>
+</html>
